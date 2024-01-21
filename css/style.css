@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+
+
+html,
+body {
+    height: 100%;
+}
+
+
+body {
+    font-family: 'League Spartan', sans-serif;
+}
+
+
+.conteaner {
+    max-width: 1070px;
+    margin: 0px auto;
+}
+
+
+.wrapper {
+    min-height: 100%;
+}
+
+
+.header {
+    background: #F8F8F8;
+    min-height: 100vh;
+    padding-bottom: 168px;
+}
+
+.header__desc {
+    max-width: 627px;
+    padding-top: 104px;
+    margin-right: 32px;
+}
+
+
+.header__supertitle {
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 53px;
+}
+
+.title {
+    font-size: 250px;
+    margin-bottom: 55px;
+}
