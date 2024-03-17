@@ -13,6 +13,15 @@ body {
     font-family: 'League Spartan', sans-serif;
 }
 
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
 h1,
 h2,
 h3,
@@ -23,7 +32,7 @@ h6 {
 }
 
 img {
-    width: 100%;
+    max-width: 100%;
 }
 
 
@@ -115,4 +124,91 @@ img {
     height: 100%;
     object-fit: contain;
     object-position: center;
+}
+
+.products {
+    padding-top: 43px;
+    padding-bottom: 142px;
+}
+
+.products__content {
+    max-width: 531px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.product__supertitle {
+    color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+}
+
+.section-title {
+    font-size: 72px;
+
+}
+
+.section-title {
+    color: rgb(0, 0, 0);
+    font-size: 72px;
+    font-weight: 400;
+    margin-bottom: 84px;
+}
+
+.product_ {
+    margin-bottom: 86px;
+}
+
+.product:last-child {
+    margin-bottom: 60px;
+}
+
+.product__img-wrap {
+    background-color: rgb(248, 248, 248);
+    max-width: 416px;
+    margin: 0 auto;
+    padding: 110px 0px;
+    margin-bottom: 66px;
+}
+
+.subtitle {
+    color: rgb(22, 21, 21);
+    font-size: 32px;
+    font-weight: 300;
+    margin-bottom: 16px;
+}
+
+.product__text {
+    margin: 0px;
+    color: rgb(22, 21, 21);
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 155%;
+}
+
+.subtitle_underline {
+    margin-bottom: 50px;
+}
+
+.subtitle_underline::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: rgb(112, 112, 112);
+    max-width: 178px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.products__desc-text {
+    margin: 0px;
+    color: rgb(22, 21, 21);
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 170%;
+}
+
+.products__desc-text a {
+    font-weight: 500;
+    color: rgb(187, 139, 93);
 }
